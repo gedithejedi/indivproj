@@ -24,13 +24,13 @@ urlpatterns = [
     #Admin urls
     path('admin/', admin.site.urls),
 
-    #Get image urls
-    path('getimg/', include('getimg.api.urls')),
-
     #Rest framework urls
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    #account register/login
     path('api/account/', include('users.api.urls','users_api')),
 
+    path('getimg/', include('getimg.api.urls')),
+    #Get image url
     path('polls/', include('polls.urls')),
 ]
 if settings.DEBUG:

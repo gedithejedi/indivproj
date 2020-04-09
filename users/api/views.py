@@ -1,3 +1,6 @@
+import simplejson
+from PIL import Image
+from django.http import HttpResponse
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
@@ -13,28 +16,29 @@ def registration_view(request):
         data = {}
         if serializer.is_valid():
             account = serializer.save()
-            data['response'] = "successfully registered a new user"
-            data['email'] = account.email
-            data['username'] = account.username
+            data['post'] = "Successfully Registered!"
+            #data['email'] = account.email
+            #data['username'] = account.username
             token = Token.objects.get(user=account).key
             data['token'] = token
+            return HttpResponse(simplejson.dumps(data), content_type='application/javascript')
         else:
-            data = serializer.errors
-        return Response(data)
+            error = serializer.errors
+        return Response(error)
 
-@api_view(['POST',])
-def login_view(request):
-
-    if request.method == "POST":
-        serializer = RegistrationSerializer(data=request.data)
-        data = {}
-        if serializer.is_valid():
-            account = serializer.save()
-            data['response'] = "successfully logged in user"
-            data['email'] = account.email
-            data['username'] = account.username
-            token = Token.objects.get(user=account).key
-            data['token'] = token
-        else:
-            data = serializer.errors
-        return Response(data)
+# @api_view(['POST',])
+# def login_view(request):
+#
+#     if request.method == "POST":
+#         serializer = RegistrationSerializer(data=request.data)
+#         data = {}
+#         if serializer.is_valid():
+#             account = serializer.save()
+#             data['response'] = "successfully logged in user"
+#             data['email'] = account.email
+#             data['username'] = account.username
+#             token = Token.objects.get(user=account).key
+#             data['token'] = token
+#         else:
+#             data = serializer.errors
+#         return Response(data)

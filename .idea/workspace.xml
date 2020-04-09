@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="973935f6-c3f4-4a5d-a48d-dc5bc8640614" name="Default Changelist" comment="" />
+    <list default="true" id="973935f6-c3f4-4a5d-a48d-dc5bc8640614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tsmodels/classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsmodels/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsmodels/model.tf.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indivproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indivproj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +31,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -42,10 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response3.txt" root0="SKIP_INSPECTION" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -59,20 +63,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/getimg/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/ServerImages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\media\ServerImages" />
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\tsmodels" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\media\ServerImages" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg\api" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg_rest" />
@@ -138,7 +145,11 @@
       <workItem from="1583452133449" duration="1112000" />
       <workItem from="1583760275426" duration="35462000" />
       <workItem from="1584309511045" duration="5363000" />
-      <workItem from="1584535397010" duration="100959000" />
+      <workItem from="1584535397010" duration="103717000" />
+      <workItem from="1585341163567" duration="13960000" />
+      <workItem from="1586269624003" duration="1299000" />
+      <workItem from="1586291706292" duration="39178000" />
+      <workItem from="1586389080993" duration="15182000" />
     </task>
     <servers />
   </component>
@@ -150,7 +161,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
