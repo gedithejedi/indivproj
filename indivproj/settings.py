@@ -29,19 +29,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 CORS_ORIGIN_ALLOW_ALL = True
-#CORS_ORIGIN_WHITELIST = (
- #   'http://127.0.0.1:5500/public/index.html',
-  #  'http://127.0.0.1:5500/public/index.html'
-   # 'http://127.0.0.1:5500',
-#)
-
 
 # Application definition
 
 INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'getimg.apps.GetimgConfig',
-    'polls.apps.PollsConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'django.contrib.admin',
@@ -50,7 +43,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'getimg_rest',
 
 ]
 

@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.conf.urls.static import static
 from django.contrib import admin
-from getimg.views import *
 from indivproj import settings
 from django.urls import include, path
 
@@ -30,8 +29,7 @@ urlpatterns = [
     path('api/account/', include('users.api.urls','users_api')),
 
     path('getimg/', include('getimg.api.urls')),
-    #Get image url
-    path('polls/', include('polls.urls')),
+
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

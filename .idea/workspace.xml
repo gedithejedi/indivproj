@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973935f6-c3f4-4a5d-a48d-dc5bc8640614" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tsmodels/classes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsmodels/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsmodels/model.tf.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getimg/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getimg/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getimg/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg_rest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg_rest/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg_rest/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getimg_rest/urls.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indivproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indivproj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +45,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -149,8 +168,19 @@
       <workItem from="1585341163567" duration="13960000" />
       <workItem from="1586269624003" duration="1299000" />
       <workItem from="1586291706292" duration="39178000" />
-      <workItem from="1586389080993" duration="15182000" />
+      <workItem from="1586389080993" duration="20632000" />
+      <workItem from="1587203715569" duration="1104000" />
+      <workItem from="1587216842151" duration="1517000" />
+      <workItem from="1587227340912" duration="6308000" />
     </task>
+    <task id="LOCAL-00001" summary="Server fully done ready for front end">
+      <created>1586469230529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586469230529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Server fully done ready for front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server fully done ready for front end" />
   </component>
 </project>

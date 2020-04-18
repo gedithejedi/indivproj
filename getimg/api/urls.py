@@ -10,9 +10,6 @@ app_name = 'getimg'
 urlpatterns = [
     # ex: /polls/
     path('', views.getimg, name='getimg'),
-
-    path('gettext/', views.gettext, name='gettext'),
-    path('success', views.success, name = 'success'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -12,7 +12,6 @@ class ImageSerializer(serializers.ModelSerializer):
     def save(self):
         image = Image(
                     img =self.validated_data['img'],
-                    #name = self.validated_data['name'],
             )
         image.save()
         return image
