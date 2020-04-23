@@ -5,28 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getimg/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/getimg/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg_rest/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg_rest/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg_rest/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getimg_rest/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indivproj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indivproj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/indivproj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_201914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_201914_5jBl6u9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_201914_oSVkpDK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_201920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202001_SY99VMr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202001_VT9Xo0X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202001_nabBlhx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202001_njezax9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/20200407_202046.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,17 +82,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gedit\Desktop\django\indivproj\media\ServerImages" />
-      <recent name="C:\Users\Gedit\Desktop\django\indivproj\tsmodels" />
-      <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\media\ServerImages" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg\api" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg_rest" />
       <recent name="C:\Users\Gedit\Desktop\django\indivproj\indivproj" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\media\ServerImages" />
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\tsmodels" />
+      <recent name="C:\Users\Gedit\Desktop\django\indivproj\getimg\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +161,9 @@
       <workItem from="1586389080993" duration="20632000" />
       <workItem from="1587203715569" duration="1104000" />
       <workItem from="1587216842151" duration="1517000" />
-      <workItem from="1587227340912" duration="6308000" />
+      <workItem from="1587227340912" duration="8322000" />
+      <workItem from="1587475619370" duration="4001000" />
+      <workItem from="1587643247143" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="Server fully done ready for front end">
       <created>1586469230529</created>
